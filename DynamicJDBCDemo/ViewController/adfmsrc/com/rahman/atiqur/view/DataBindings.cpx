@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.2.1.0.31" id="DataBindings"
+             SeparateXMLFiles="false" Package="com.rahman.atiqur.view" ClientType="Generic">
+  <pageMap>
+    <page path="/WEB-INF/task-flow-definition.xml#task-flow-definition@methodCall1"
+          usageId="com_rahman_atiqur_view_task_flow_definition_task_flow_definition_methodCall1PageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="com_rahman_atiqur_view_task_flow_definition_task_flow_definition_methodCall1PageDef"
+          path="com.rahman.atiqur.view.pageDefs.task_flow_definition_task_flow_definition_methodCall1PageDef"/>
+  </pageDefinitionUsages>
+</Application>
